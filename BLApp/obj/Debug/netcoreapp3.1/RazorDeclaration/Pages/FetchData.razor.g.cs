@@ -76,8 +76,15 @@ using BLApp.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/action/Projects/BLApp/BLApp/Pages/FetchData.razor"
+#line 4 "/Users/action/Projects/BLApp/BLApp/Pages/FetchData.razor"
 using BLApp.Data;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "/Users/action/Projects/BLApp/BLApp/Pages/FetchData.razor"
+           [Authorize]
 
 #line default
 #line hidden
@@ -91,7 +98,7 @@ using BLApp.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "/Users/action/Projects/BLApp/BLApp/Pages/FetchData.razor"
+#line 48 "/Users/action/Projects/BLApp/BLApp/Pages/FetchData.razor"
        
     private WeatherForecast[] forecasts;
 

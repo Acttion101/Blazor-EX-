@@ -75,6 +75,13 @@ using BLApp.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "/Users/action/Projects/BLApp/BLApp/Pages/Counter.razor"
+           [Authorize]
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -84,7 +91,7 @@ using BLApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "/Users/action/Projects/BLApp/BLApp/Pages/Counter.razor"
+#line 10 "/Users/action/Projects/BLApp/BLApp/Pages/Counter.razor"
        
     private int currentCount = 0;
 

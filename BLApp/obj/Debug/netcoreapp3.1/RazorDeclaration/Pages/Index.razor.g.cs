@@ -83,6 +83,20 @@ using BLApp.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 13 "/Users/action/Projects/BLApp/BLApp/Pages/Index.razor"
+       
+    [CascadingParameter]
+    private Task<AuthenticationState> _authState { get; set; }
+    private AuthenticationState authState;
+    protected override async Task OnInitializedAsync()
+    {
+         authState = await _authState;
+    }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
